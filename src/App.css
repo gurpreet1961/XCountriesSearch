@@ -8,7 +8,7 @@ nav > input {
 	width: 40%;
 	border: 1px solid gray;
 }
-.card {
+.countryCard {
 	width: 150px;
 	height: 150px;
 	border: 1px solid rgb(197, 197, 197);
@@ -21,7 +21,7 @@ nav > input {
 	text-align: center;
 	padding-top: 5px;
 }
-.card > img {
+.countryCard > img {
 	width: 70px;
 	height: 70px;
 }

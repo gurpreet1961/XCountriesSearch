@@ -42,7 +42,7 @@ const App = () => {
 						searchValue === ""
 					) {
 						return (
-							<div key={ele.cca3} className="card">
+							<div key={ele.cca3} className="countryCard">
 								<img src={ele.flags.png} alt={`Flag of ${ele.name.common}`} />
 								<h4>{ele.name.common}</h4>
 							</div>
