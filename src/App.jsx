@@ -30,14 +30,17 @@ const App = () => {
 					value={searchValue}
 					placeholder="Search for countries..."
 					onChange={(e) => {
-						setSearchValue(e.target.value.toLowerCase());
+						setSearchValue(e.target.value);
 					}}
 				/>
 			</nav>
 			<div className="container">
 				{Countries?.map((ele) => {
 					const name = ele.name.common;
-					if (name.toLowerCase().includes(searchValue) || searchValue === "") {
+					if (
+						name.toLowerCase().includes(searchValue.toLocaleLowerCase()) ||
+						searchValue === ""
+					) {
 						return (
 							<div key={ele.cca3} className="card">
 								<img src={ele.flags.png} alt={`Flag of ${ele.name.common}`} />
