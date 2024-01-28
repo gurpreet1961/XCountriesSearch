@@ -21,6 +21,9 @@ nav > input {
 	text-align: center;
 	padding-top: 5px;
 }
+.countryCard > h2 {
+	font-size: 1rem;
+}
 .countryCard > img {
 	width: 70px;
 	height: 70px;
