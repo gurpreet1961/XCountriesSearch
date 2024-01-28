@@ -44,7 +44,7 @@ const App = () => {
 						return (
 							<div key={ele.cca3} className="countryCard">
 								<img src={ele.flags.png} alt={`Flag of ${ele.name.common}`} />
-								<h4>{ele.name.common}</h4>
+								<h2>{ele.name.common}</h2>
 							</div>
 						);
 					}
